@@ -1,0 +1,38 @@
+#centreLogo{
+    height: 60vh;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 50px;
+  }
+
+#search {
+    width: 15px;
+    height: 15px;
+}
+
+.searchBar{
+    width: 100%;
+    border-radius: 25px;
+    border-left-style: none;
+}
+
+.google {
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+    background-color: #fff;
+}
+
+#ImageSearch{
+    text-align: right;
+}
+
+#searchbutton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
