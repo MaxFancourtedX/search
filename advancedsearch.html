@@ -13,17 +13,37 @@
             <div class="col-8"></div>
             <div class="col-2" id="ImageSearch"><a href="index.html">Google Search</a></div>
         </div>
-        <div class="row align-items-center" style="height: 60vh;">
+        <div class="row align-items-center" >
             <div class="col-4"></div>
             <div class="col-4">
                 <img class ="text-center logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
                     <form action="https://google.com/search">
                         <div class="form-group">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text google"><img src="search.png" id="search"></span>
+                            <div class="form-group"></div>
+                            <div class="form-group">Find pages with...</div>
+                            <div class="form-group row">
+                                <label for="field1" class="col-sm-2 col-form-label">all these words</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="field1" name="as_q">
                                 </div>
-                                <input class="form-control form-control-default searchBar" type="text" name="q" autofocus>
+                            </div>
+                            <div class="form-group row">
+                                <label for="field2" class="col-sm-2 col-form-label">this exact word or phrase</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="field2" name="as_epq">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="field3" class="col-sm-2 col-form-label">any of these words:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="field3" name="as_oq">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="field4" class="col-sm-2 col-form-label">one of these words:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="field4" name=as_eq>
+                                </div>
                             </div>
                         </div>
                         <input type="submit" value="Advanced Search" id="searchbutton">
